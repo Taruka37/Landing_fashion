@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+h1{
+    font-family: 'Hello Finland', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+}
